@@ -1,0 +1,4 @@
+--Clase 16.Marzo.2023. Iniciando ejercicos con la base de datos de CoderHouse-- 
+
+
+--Ejercicios de subconsultas con base de coderhouse--/*Indicar cuantos cursos y carreras tiene el área de Data. Renombrar la nueva columna como cant_asignaturas.*/SELECT * FROM Area;SELECT * FROM Asignaturas;--SUBQUERY PARA OBTENER EL id DEL área que deseamos que es el data--SELECT AreaIDFROM AREAWhere Nombre = 'Data';--Query para calcular cantidad de cursos y carreras del área de datos --Filtrar por area de data--SELECTTipo,COUNT(AsignaturasID) AS Cantidad_asignaturasFROM AsignaturasWHERE Area = (SELECT AreaIDFROM AreaWHERE Nombre = 'Data') -- subconsulta area data--GROUP BY Tipo;
