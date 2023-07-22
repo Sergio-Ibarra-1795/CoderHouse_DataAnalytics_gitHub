@@ -58,3 +58,43 @@ EXEC sp_rename 'qualifying.qualifyId', 'qualifyingId', 'COLUMN';
 SELECT COLUMN_NAME, DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'qualifying';
+
+
+
+--Corrigiendo la tabla sprint_results
+EXEC sp_rename 'sprint_results.resultId', 'sprint_resultId', 'COLUMN';
+
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'sprint_results';
+
+
+
+
+--Corrigiendo la tabla results
+ALTER TABLE results 
+ADD points INT NULL;
+
+ALTER TABLE results
+ADD laps INT NULL;
+
+
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'results';
+
+
+
+
+--Corrigiendo la tabla sprint_results
+ALTER TABLE sprint_results 
+ADD points INT NULL;
+
+ALTER TABLE sprint_results
+ADD laps INT NULL;
+
+
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'sprint_results';
+

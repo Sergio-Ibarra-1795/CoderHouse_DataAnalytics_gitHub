@@ -1,4 +1,4 @@
-constructorResultsId,raceId,constructorId,points,status
+constructorResultsId,raceId,constructorId,points,Status_construtor
 1,18,1,14,\N
 2,18,2,8,\N
 3,18,3,9,\N
@@ -184,7 +184,7 @@ constructorResultsId,raceId,constructorId,points,status
 183,35,11,0,\N
 184,35,10,0,\N
 185,36,6,13,\N
-186,36,1,14,"D"
+186,36,1,14,D
 187,36,2,5,\N
 188,36,4,4,\N
 189,36,3,2,\N
@@ -194,7 +194,7 @@ constructorResultsId,raceId,constructorId,points,status
 193,36,9,0,\N
 194,36,5,0,\N
 195,36,12,0,\N
-196,37,1,18,"D"
+196,37,1,18,D
 197,37,6,10,\N
 198,37,2,5,\N
 199,37,4,4,\N
@@ -206,7 +206,7 @@ constructorResultsId,raceId,constructorId,points,status
 205,37,5,0,\N
 206,37,12,0,\N
 207,38,6,16,\N
-208,38,1,12,"D"
+208,38,1,12,D
 209,38,2,8,\N
 210,38,7,2,\N
 211,38,4,1,\N
@@ -217,7 +217,7 @@ constructorResultsId,raceId,constructorId,points,status
 216,38,9,0,\N
 217,38,5,0,\N
 218,39,6,10,\N
-219,39,1,14,"D"
+219,39,1,14,D
 220,39,2,5,\N
 221,39,9,4,\N
 222,39,3,3,\N
@@ -227,7 +227,7 @@ constructorResultsId,raceId,constructorId,points,status
 226,39,12,0,\N
 227,39,7,0,\N
 228,39,5,0,\N
-229,40,1,18,"D"
+229,40,1,18,D
 230,40,6,7,\N
 231,40,4,5,\N
 232,40,2,7,\N
@@ -238,7 +238,7 @@ constructorResultsId,raceId,constructorId,points,status
 237,40,7,0,\N
 238,40,8,0,\N
 239,40,12,0,\N
-240,41,1,12,"D"
+240,41,1,12,D
 241,41,2,8,\N
 242,41,3,6,\N
 243,41,4,5,\N
@@ -249,7 +249,7 @@ constructorResultsId,raceId,constructorId,points,status
 248,41,11,0,\N
 249,41,5,0,\N
 250,41,12,0,\N
-251,42,1,18,"D"
+251,42,1,18,D
 252,42,6,11,\N
 253,42,4,4,\N
 254,42,7,3,\N
@@ -261,7 +261,7 @@ constructorResultsId,raceId,constructorId,points,status
 260,42,5,0,\N
 261,42,12,0,\N
 262,43,6,18,\N
-263,43,1,8,"D"
+263,43,1,8,D
 264,43,2,9,\N
 265,43,4,3,\N
 266,43,11,1,\N
@@ -272,7 +272,7 @@ constructorResultsId,raceId,constructorId,points,status
 271,43,12,0,\N
 272,43,5,0,\N
 273,44,6,14,\N
-274,44,1,14,"D"
+274,44,1,14,D
 275,44,2,8,\N
 276,44,4,3,\N
 277,44,11,0,\N
@@ -282,7 +282,7 @@ constructorResultsId,raceId,constructorId,points,status
 281,44,12,0,\N
 282,44,5,0,\N
 283,44,7,0,\N
-284,45,1,10,"D"
+284,45,1,10,D
 285,45,6,8,\N
 286,45,9,10,\N
 287,45,3,5,\N
@@ -293,7 +293,7 @@ constructorResultsId,raceId,constructorId,points,status
 292,45,7,0,\N
 293,45,12,0,\N
 294,45,5,0,\N
-295,46,1,15,"D"
+295,46,1,15,D
 296,46,6,8,\N
 297,46,2,10,\N
 298,46,7,3,\N
@@ -305,7 +305,7 @@ constructorResultsId,raceId,constructorId,points,status
 304,46,12,0,\N
 305,46,11,0,\N
 306,47,6,18,\N
-307,47,1,10,"D"
+307,47,1,10,D
 308,47,2,6,\N
 309,47,4,3,\N
 310,47,3,2,\N
@@ -315,7 +315,7 @@ constructorResultsId,raceId,constructorId,points,status
 314,47,8,0,\N
 315,47,5,0,\N
 316,47,12,0,\N
-317,48,1,18,"D"
+317,48,1,18,D
 318,48,6,6,\N
 319,48,2,9,\N
 320,48,3,3,\N
@@ -327,7 +327,7 @@ constructorResultsId,raceId,constructorId,points,status
 326,48,5,0,\N
 327,48,12,0,\N
 328,49,6,18,\N
-329,49,1,11,"D"
+329,49,1,11,D
 330,49,2,4,\N
 331,49,3,3,\N
 332,49,9,2,\N
@@ -337,7 +337,7 @@ constructorResultsId,raceId,constructorId,points,status
 336,49,11,0,\N
 337,49,12,0,\N
 338,49,8,0,\N
-339,50,1,10,"D"
+339,50,1,10,D
 340,50,4,12,\N
 341,50,6,9,\N
 342,50,9,5,\N
@@ -349,7 +349,7 @@ constructorResultsId,raceId,constructorId,points,status
 348,50,8,0,\N
 349,50,3,0,\N
 350,51,6,16,\N
-351,51,1,8,"D"
+351,51,1,8,D
 352,51,5,8,\N
 353,51,11,4,\N
 354,51,2,2,\N
@@ -360,7 +360,7 @@ constructorResultsId,raceId,constructorId,points,status
 359,51,8,0,\N
 360,51,12,0,\N
 361,52,6,18,\N
-362,52,1,8,"D"
+362,52,1,8,D
 363,52,3,5,\N
 364,52,2,7,\N
 365,52,7,1,\N
@@ -3512,8 +3512,8 @@ constructorResultsId,raceId,constructorId,points,status
 3511,319,42,0,\N
 3512,320,1,7,\N
 3513,320,3,4,\N
-3514,320,22,1.5,\N
-3515,320,6,0.5,\N
+3514,320,22,2,\N
+3515,320,6,1,\N
 3516,320,35,0,\N
 3517,320,17,0,\N
 3518,320,25,0,\N
@@ -3833,10 +3833,10 @@ constructorResultsId,raceId,constructorId,points,status
 3832,1,6,0,\N
 3833,2,23,7,\N
 3834,2,2,4,\N
-3835,2,7,5.5,\N
-3836,2,9,1.5,\N
+3835,2,7,6,\N
+3836,2,9,2,\N
 3837,2,1,1,\N
-3838,2,3,0.5,\N
+3838,2,3,1,\N
 3839,2,6,0,\N
 3840,2,5,0,\N
 3841,2,4,0,\N
@@ -5344,10 +5344,10 @@ constructorResultsId,raceId,constructorId,points,status
 5343,440,51,0,\N
 5344,440,53,0,\N
 5345,440,54,0,\N
-5346,441,1,4.5,\N
+5346,441,1,5,\N
 5347,441,53,3,\N
-5348,441,6,2.5,\N
-5349,441,3,1.5,\N
+5348,441,6,3,\N
+5349,441,3,2,\N
 5350,441,32,1,\N
 5351,441,45,0,\N
 5352,441,25,0,\N
@@ -7186,10 +7186,10 @@ constructorResultsId,raceId,constructorId,points,status
 12609,579,63,0,\N
 12608,579,3,0,\N
 12607,579,37,1,\N
-12606,579,202,1.5,\N
+12606,579,202,2,\N
 12605,579,34,2,\N
 12604,579,32,3,\N
-12603,579,1,4.5,\N
+12603,579,1,5,\N
 12629,580,73,0,\N
 12628,580,63,0,\N
 12627,580,202,0,\N
@@ -7270,9 +7270,9 @@ constructorResultsId,raceId,constructorId,points,status
 12858,587,57,0,\N
 12857,587,63,0,\N
 12856,587,25,0,\N
-12855,587,6,0.5,\N
+12855,587,6,1,\N
 12854,587,32,1,\N
-12853,587,1,1.5,\N
+12853,587,1,2,\N
 12879,588,75,0,\N
 12878,588,37,0,\N
 12877,588,203,0,\N
@@ -9068,7 +9068,7 @@ constructorResultsId,raceId,constructorId,points,status
 12836,586,34,9,\N
 12852,587,202,2,\N
 12851,587,64,3,\N
-12850,587,37,4.5,\N
+12850,587,37,5,\N
 12869,588,34,3,\N
 12868,588,1,6,\N
 12867,588,6,9,\N
@@ -11839,14 +11839,14 @@ constructorResultsId,raceId,constructorId,points,status
 16337,1062,51,1,\N
 16338,1062,1,0,\N
 16339,1062,210,0,\N
-16340,1063,9,12.5,\N
+16340,1063,9,13,\N
 16341,1063,3,10,\N
-16342,1063,131,7.5,\N
+16342,1063,131,8,\N
 16343,1063,1,6,\N
 16344,1063,117,5,\N
 16345,1063,213,4,\N
 16346,1063,214,3,\N
-16347,1063,6,2.5,\N
+16347,1063,6,3,\N
 16348,1063,51,0,\N
 16349,1063,210,0,\N
 16350,1064,9,29,\N
