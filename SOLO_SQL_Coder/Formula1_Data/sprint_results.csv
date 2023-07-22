@@ -1,4 +1,4 @@
-resultId,raceId,driverId,constructorId,number,grid,position,positionText,positionOrder,points,laps,Time_sprints_res,milliseconds,fastestLap,fastestLapTime,statusId
+sprint_resultId,raceId,driverId,constructorId,number,grid,position,positionText,positionOrder,points,laps,Time_sprints_res,milliseconds,fastestLap,fastestLapTime,statusId
 1,1061,830,9,33,2,1,1,1,3,17,25:38.4,1538426,14,01:30.0,1
 2,1061,1,131,44,1,2,2,2,2,17,1.43,1539856,17,01:29.9,1
 3,1061,822,131,77,3,3,3,3,1,17,7.502,1545928,17,01:30.0,1
