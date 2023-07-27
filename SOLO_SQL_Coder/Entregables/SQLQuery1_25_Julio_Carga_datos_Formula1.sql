@@ -340,3 +340,131 @@ USE Formula1_1;
 TRUNCATE TABLE PIT_stops;
 
 SELECT * FROM PIT_stops;
+
+
+
+--- Ahora vamos a cargar la tabla status_description 
+SELECT * FROM status_;
+DROP TABLE status_;
+
+SELECT * FROM results;
+
+
+-- Debemos borrar la FK que tiene status_ con results
+
+
+
+SELECT name
+FROM sys.key_constraints
+WHERE type = 'FK'
+AND parent_object_id = OBJECT_ID('results');
+
+SELECT *
+FROM sys.key_constraints
+WHERE parent_object_id = OBJECT_ID('results');
+
+
+
+-- To delete a Foreing Key Constrain 
+
+ALTER TABLE results 
+DROP CONSTRAINT FK_results_status;
+
+
+SELECT name
+FROM sys.foreign_keys
+WHERE parent_object_id = OBJECT_ID('results');
+
+
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'results';
+
+
+
+-- Se borró la tabla status_ para crear una de nombre status_description
+DROP TABLE status_;
+
+
+
+-- Se creó la tabla status_description
+
+CREATE TABLE status_description (
+    statusID INT NOT NULL PRIMARY KEY,
+    statusDescription VARCHAR(100) NOT NULL
+);
+
+
+--To rename the column 'statusID' to 'statusId'
+EXEC sp_rename 'status_description.statusID', 'statusId', 'COLUMN';
+
+
+
+
+DROP TABLE status_description ; 
+
+CREATE TABLE status_description (
+    statusId  INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    statusDescription VARCHAR(100) NOT NULL
+);
+
+
+SELECT * FROM results;
+
+
+
+SELECT * FROM sprint_results;
+
+
+--Después de haber creado y poblado la tabla vamos a generar su FK con las tablas results & sprint_results 
+
+ --To rename the column 'resultsID' to 'resultsId'
+EXEC sp_rename 'results.resultID', 'resultsId', 'COLUMN';
+
+--To rename the column 'statusID' to 'statusId'
+EXEC sp_rename 'results.statusID', 'statusId', 'COLUMN';
+
+
+
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'results';
+
+
+--To add a foreign key constraint** between the statusId column 
+--in the results table and the statusId column in the status_description table
+
+ALTER TABLE results
+ADD CONSTRAINT FK_results_statusId
+FOREIGN KEY (statusId)
+REFERENCES status_description(statusId);
+
+
+SELECT name
+FROM sys.foreign_keys
+WHERE parent_object_id = OBJECT_ID('results');
+
+
+
+
+ALTER TABLE results
+ALTER COLUMN PositionOrder INT NULL;
+
+
+
+ALTER TABLE results
+ALTER COLUMN time_results DATETIME NULL;
+
+
+ALTER TABLE results
+DROP COLUMN PositionText;
+
+
+ALTER TABLE results
+ALTER COLUMN number INT NULL;
+
+
+
+
+
+SELECT * FROM results;
